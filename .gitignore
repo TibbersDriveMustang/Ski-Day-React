@@ -1,1 +1,8 @@
 node_modules/
+.idea/compiler.xml
+.idea/copyright/
+.idea/exec1.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+
