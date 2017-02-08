@@ -1,11 +1,11 @@
 import React from 'react'
 import {render} from 'react-dom'
 import {hello, goodbye} from './lib'
+import { App } from './components/App'
+
+window.React = React
 
 render(
-	<div>
-		{hello}
-		{goodbye}
-	</div>,
+	<App />,
 	document.getElementById('react-container')
 )
