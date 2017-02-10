@@ -5,7 +5,7 @@ import { App } from './components/App'
 import { Router, Route, hashHistory } from 'react-router'
 import {Whoops404} from './components/Whoops404'
 
-window.React = React
+//window.React = React
 
 render(
 	<Router history={hashHistory}>
