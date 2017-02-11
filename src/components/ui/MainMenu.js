@@ -9,14 +9,26 @@ const MainMenu = () => {
             	  activeStyle={{
             	  backgroundColor: "white", 
             	  color: "slategray"
-            	}}>
+            	}}
+			>
             	About
             </Link>
+
+			<Link to="afterSchoolProgram"
+				  activeStyle={{
+					  backgroundColor: "white",
+					  color: "slategray"
+				  }}
+			>
+				After School Program
+			</Link>
+
             <Link to="members" 
             	  activeStyle={{
             	  	backgroundColor: "white", 
             	  	color: "slategray"
-            	  }}>
+            	  }}
+			>
             	  Members
            	</Link>
         </nav>

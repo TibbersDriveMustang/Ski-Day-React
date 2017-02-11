@@ -21,7 +21,7 @@ html, body {
 
 .home > nav {
     display: flex;
-    background-color: #0C3B20;
+    background-color: #4169E1;
     line-height: 4em;
     flex-direction: row;
     min-width: 100%;
