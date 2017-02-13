@@ -1,15 +1,39 @@
-html, body {
-    font-family: "Architects Daughter", sans-serif;
-    min-width: 100%;
-    margin: 0;
-}
+/*html, body{*/
+    /*font-family: "Andale Mono";*/
+    /*min-width: 100%;*/
+    /*margin: 0;*/
+/*}*/
 
 
-.app {
-    position: relative;
+.afterSchoolProgram{
+    justify-content: center;
+    align-items: center;
     display: flex;
 }
 
+.summerProgram{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.weekendProgram{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.daySchool{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.driversNeeded{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
 .home {
     display: flex;
@@ -20,48 +44,9 @@ html, body {
 }
 
 .home > nav {
-    display: flex;
-    background-color: #4169E1;
-    line-height: 4em;
-    flex-direction: row;
     min-width: 100%;
 }
 
-.home > nav > a {
-    flex-basis: calc(33.33% - 3em);
-    flex-grow: 1;
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-    text-align: center;
-}
-
-#homebox {
-    color: #E1F5F5;
-    text-shadow: 5px -5px #0C3B20;
-    font-family: "Architects Daughter", sans-serif;
-    font-size: 4em;
-    display: flex;
-    min-width: 100%;
-    min-height: 1000px;
-    background-image: url(https://c4.staticflickr.com/3/2851/10764957835_4ba6354087_k.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-}
-
-.page>nav {
-    display: flex;
-    background-color: #0C3B20;
-    line-height: 4em;
-    flex-direction: column;
-}
-
-.page > nav > a {
-    color: white;
-    text-decoration: none;
-    padding-left: 0.5em;
-}
 
 .member-list {
     display: flex;
@@ -73,6 +58,9 @@ html, body {
 .member-list > h1, .member-list > span {
     min-width: 100%;
     padding-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .member {
@@ -86,19 +74,6 @@ html, body {
     flex-basis: 100%;
     font-size: 1.5em;
     text-transform: capitalize;
-}
-
-.about > p {
-    font-size: 1.3em;
-}
-
-.page {
-    display: flex;
-    flex-grow: 1;
-}
-
-.page > div {
-    margin: 0.5em;
 }
 
 .member > a {

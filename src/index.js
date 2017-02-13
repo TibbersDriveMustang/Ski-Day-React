@@ -6,4 +6,5 @@ window.React = React
 
 render(
 	routes, 
-	document.getElementById('react-container'))
+	document.getElementById('react-container')
+)
